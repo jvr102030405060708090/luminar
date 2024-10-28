@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Catalogo - Luminar</title>
+</head>
+<body>
+    <!--== HEADER ==-->
+    <header class="header">
+
+        <nav class="nav container">
+            <a href="/index" class="nav__logo">
+                <img src="assets/img/Logo-Luminar.svg" alt="Luminar Logo" class="nav__logo-img">
+            </a>
+
+            <div class="nav__menu" id="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="/index" class="nav__link active-link">Inicio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/shop" class="nav__link">Catalogo</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/accounts" class="nav__link">Mi cuenta</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="compare.html" class="nav__link">Comparar</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/" class="nav__link">Login</a>
+                    </li>
+                </ul>
+
+                <div class="header_search">
+                    <input type="text" placeholder="Buscar productos..." class="form__input">
+                    <button class="search__btn">
+                        <i class="fi fi-rr-search"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="header__user-actions">
+                <a href="/whishlist" class="header__action-btn">
+                    <img src="assets/img/icon-heart.svg" alt="Wishlist">
+                </a>
+                <a href="/cart" class="header__action-btn">
+                    <img src="assets/img/icon-cart.svg" alt="Carrito">
+                </a>
+           </div>
+        </nav>
+    </header>
+
+    <!-- MAIN SHOP SECTION -->
+    <main class="main">
+        <section class="shop section">
+            <div class="shop__container container">
+                <h2 class="section__title">Productos</h2>
+
+                <div class="products__container grid">
+                    <div class="product__item">
+                        <div class="product__banner">
+                            <a href="details.html" class="product__images">
+                                <img src="assets/img/img.mujer.jpg" alt="Product Image" class="product__img default">
+                                <img src="assets/img/img.mujer.jpg" alt="Product Image Hover" class="product__img hover">
+                            </a>
+                        </div>
+                        <div class="product__content">
+                            <span class="product__category">Clothing</span>
+                            <a href="details.html">
+                                <h3 class="product__title">Colorful Pattern Shirt</h3>
+                            </a>
+                            <div class="product__price flex">
+                                <span class="new__price">$238.85</span>
+                            </div>
+                            <a href="#" class="action__btn cart__btn" aria-label="Añadir al carrito" data-product-id="1" data-product-name="Nombre del Producto" data-product-price="30.00">
+                                <i class="fi fi-rs-shopping-bag-add"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product__item">
+                        <div class="product__banner">
+                            <a href="details.html" class="product__images">
+                                <img src="assets/img/img.mujer01.jpg" alt="Product Image" class="product__img default">
+                                <img src="assets/img/img.mujer01.jpg" alt="Product Image Hover" class="product__img hover">
+                            </a>
+                        </div>
+                        <div class="product__content">
+                            <span class="product__category">Accessories</span>
+                            <a href="details.html">
+                                <h3 class="product__title">Leather Handbag</h3>
+                            </a>
+                            <div class="product__price flex">
+                                <span class="new__price">$178.99</span>
+                            </div>
+                            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                <i class="fi fi-rs-shopping-bag-add"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product__item">
+                        <div class="product__banner">
+                            <a href="details.html" class="product__images">
+                                <img src="assets/img/img.mujer20.jpg" alt="Product Image" class="product__img default">
+                                <img src="assets/img/img.mujer20.jpg" alt="Product Image Hover" class="product__img hover">
+                            </a>
+                        </div>
+                        <div class="product__content">
+                            <span class="product__category">Accessories</span>
+                            <a href="details.html">
+                                <h3 class="product__title">Leather Handbag</h3>
+                            </a>
+                            <div class="product__price flex">
+                                <span class="new__price">$178.99</span>
+                            </div>
+                            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                <i class="fi fi-rs-shopping-bag-add"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product__item">
+                        <div class="product__banner">
+                            <a href="details.html" class="product__images">
+                                <img src="assets/img/img.mujer21.jpg" alt="Product Image" class="product__img default">
+                                <img src="assets/img/img.mujer21.jpg" alt="Product Image Hover" class="product__img hover">
+                            </a>
+                        </div>
+                        <div class="product__content">
+                            <span class="product__category">Accessories</span>
+                            <a href="details.html">
+                                <h3 class="product__title">Leather Handbag</h3>
+                            </a>
+                            <div class="product__price flex">
+                                <span class="new__price">$178.99</span>
+                            </div>
+                            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                <i class="fi fi-rs-shopping-bag-add"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__container grid">
+                    <!-- Product Item -->
+                    <div class="product__item">
+                        <div class="product__banner">
+                            <a href="details.html" class="product__images">
+                                <img src="assets/img/img.mujer02.jpg" alt="Product Image" class="product__img default">
+                                <img src="assets/img/img.mujer02.jpg" alt="Product Image Hover" class="product__img hover">
+                            </a>
+                        </div>
+                        <div class="product__content">
+                            <span class="product__category">Clothing</span>
+                            <a href="details.html">
+                                <h3 class="product__title">Colorful Pattern Shirt</h3>
+                            </a>
+                            <div class="product__price flex">
+                                <span class="new__price">$238.85</span>
+                            </div>
+                            <a href="#" class="action__btn cart__btn" aria-label="Añadir al carrito" data-product-id="1" data-product-name="Nombre del Producto" data-product-price="30.00">
+                                <i class="fi fi-rs-shopping-bag-add"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- More Product Items -->
+                    <div class="product__item">
+                        <div class="product__banner">
+                            <a href="details.html" class="product__images">
+                                <img src="assets/img/img.mujer03.jpg" alt="Product Image" class="product__img default">
+                                <img src="assets/img/img.mujer03.jpg" alt="Product Image Hover" class="product__img hover">
+                            </a>
+                        </div>
+                        <div class="product__content">
+                            <span class="product__category">Accessories</span>
+                            <a href="details.html">
+                                <h3 class="product__title">Leather Handbag</h3>
+                            </a>
+                            <div class="product__price flex">
+                                <span class="new__price">$178.99</span>
+                            </div>
+                            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                <i class="fi fi-rs-shopping-bag-add"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product__item">
+                        <div class="product__banner">
+                            <a href="details.html" class="product__images">
+                                <img src="assets/img/img.mujer18.jpg" alt="Product Image" class="product__img default">
+                                <img src="assets/img/img.mujer18.jpg" alt="Product Image Hover" class="product__img hover">
+                            </a>
+                        </div>
+                        <div class="product__content">
+                            <span class="product__category">Accessories</span>
+                            <a href="details.html">
+                                <h3 class="product__title">Leather Handbag</h3>
+                            </a>
+                            <div class="product__price flex">
+                                <span class="new__price">$178.99</span>
+                            </div>
+                            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                <i class="fi fi-rs-shopping-bag-add"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product__item">
+                        <div class="product__banner">
+                            <a href="details.html" class="product__images">
+                                <img src="assets/img/img.mujer19.jpg" alt="Product Image" class="product__img default">
+                                <img src="assets/img/img.mujer19.jpg" alt="Product Image Hover" class="product__img hover">
+                            </a>
+                        </div>
+                        <div class="product__content">
+                            <span class="product__category">Accessories</span>
+                            <a href="details.html">
+                                <h3 class="product__title">Leather Handbag</h3>
+                            </a>
+                            <div class="product__price flex">
+                                <span class="new__price">$178.99</span>
+                            </div>
+                            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                <i class="fi fi-rs-shopping-bag-add"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Repeat similar product items as necessary -->
+                </div>
+                <div class="products__container grid">
+                    <div class="product__item">
+                        <div class="product__banner">
+                            <a href="details.html" class="product__images">
+                                <img src="assets/img/img.mujer04.jpg" alt="Product Image" class="product__img default">
+                                <img src="assets/img/img.mujer04.jpg" alt="Product Image Hover" class="product__img hover">
+                            </a>
+                        </div>
+                        <div class="product__content">
+                            <span class="product__category">Clothing</span>
+                            <a href="details.html">
+                                <h3 class="product__title">Colorful Pattern Shirt</h3>
+                            </a>
+                            <div class="product__price flex">
+                                <span class="new__price">$238.85</span>
+                            </div>
+                            <a href="#" class="action__btn cart__btn" aria-label="Añadir al carrito" data-product-id="1" data-product-name="Nombre del Producto" data-product-price="30.00">
+                                <i class="fi fi-rs-shopping-bag-add"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product__item">
+                        <div class="product__banner">
+                            <a href="details.html" class="product__images">
+                                <img src="assets/img/img.mujer05.jpg" alt="Product Image" class="product__img default">
+                                <img src="assets/img/img.mujer05.jpg" alt="Product Image Hover" class="product__img hover">
+                            </a>
+                        </div>
+                        <div class="product__content">
+                            <span class="product__category">Accessories</span>
+                            <a href="details.html">
+                                <h3 class="product__title">Leather Handbag</h3>
+                            </a>
+                            <div class="product__price flex">
+                                <span class="new__price">$178.99</span>
+                            </div>
+                            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                <i class="fi fi-rs-shopping-bag-add"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product__item">
+                        <div class="product__banner">
+                            <a href="details.html" class="product__images">
+                                <img src="assets/img/img.mujer15.jpg" alt="Product Image" class="product__img default">
+                                <img src="assets/img/img.mujer15.jpg" alt="Product Image Hover" class="product__img hover">
+                            </a>
+                        </div>
+                        <div class="product__content">
+                            <span class="product__category">Accessories</span>
+                            <a href="details.html">
+                                <h3 class="product__title">Leather Handbag</h3>
+                            </a>
+                            <div class="product__price flex">
+                                <span class="new__price">$178.99</span>
+                            </div>
+                            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                <i class="fi fi-rs-shopping-bag-add"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product__item">
+                        <div class="product__banner">
+                            <a href="details.html" class="product__images">
+                                <img src="assets/img/img.mujer16.jpg" alt="Product Image" class="product__img default">
+                                <img src="assets/img/img.mujer16.jpg" alt="Product Image Hover" class="product__img hover">
+                            </a>
+                        </div>
+                        <div class="product__content">
+                            <span class="product__category">Accessories</span>
+                            <a href="details.html">
+                                <h3 class="product__title">Leather Handbag</h3>
+                            </a>
+                            <div class="product__price flex">
+                                <span class="new__price">$178.99</span>
+                            </div>
+                            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                <i class="fi fi-rs-shopping-bag-add"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <!-- Similar footer as in the homepage -->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="assets/js/main.js"></script>
+
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const cartItems = document.getElementById('cartItems');
+                const cartTotalAmount = document.getElementById('cartTotalAmount');
+                const emptyCartMessage = document.getElementById('emptyCartMessage');
+                const cartTotalSection = document.getElementById('cartTotalSection');
+
+                let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+                function displayCartItems() {
+                    cartItems.innerHTML = '';
+                    let total = 0;
+
+                    if (cart.length === 0) {
+                        emptyCartMessage.style.display = 'block';
+                        cartTotalSection.style.display = 'none';
+                    } else {
+                        emptyCartMessage.style.display = 'none';
+                        cartTotalSection.style.display = 'block';
+
+                        cart.forEach((item, index) => {
+                            const row = document.createElement('tr');
+                            row.innerHTML = `
+                                <td>${item.name}</td>
+                                <td class="cart__price">$${item.price.toFixed(2)}</td>
+                                <td><input type="number" class="cart__quantity" value="${item.quantity}" min="1"></td>
+                                <td class="cart__total-item">$${(item.price * item.quantity).toFixed(2)}</td>
+                                <td><button class="btn btn-remove" data-index="${index}">Eliminar</button></td>
+                            `;
+                            cartItems.appendChild(row);
+                            total += item.price * item.quantity;
+                        });
+
+                        cartTotalAmount.textContent = `$${total.toFixed(2)}`;
+                    }
+                }
+
+                // Actualizar total del carrito al cambiar cantidad
+                cartItems.addEventListener('change', function(event) {
+                    if (event.target.classList.contains('cart__quantity')) {
+                        const index = event.target.closest('tr').querySelector('.btn-remove').getAttribute('data-index');
+                        cart[index].quantity = parseInt(event.target.value);
+                        localStorage.setItem('cart', JSON.stringify(cart));
+                        displayCartItems();
+                    }
+                });
+
+                // Eliminar producto del carrito
+                cartItems.addEventListener('click', function(event) {
+                    if (event.target.classList.contains('btn-remove')) {
+                        const index = event.target.getAttribute('data-index');
+                        cart.splice(index, 1);
+                        localStorage.setItem('cart', JSON.stringify(cart));
+                        displayCartItems();
+                    }
+                });
+
+                displayCartItems();
+            });
+        </script>
+
+</body>
+</html>
